@@ -1,7 +1,7 @@
 var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
-var Box2D = require('box2dweb');
+var Box2D = require('box2dweb').Box2D;
 var fs = require('fs');
 var express = require('express');
 app.use(express.static(__dirname))
