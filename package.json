@@ -13,8 +13,8 @@
   "dependencies": {
     "express": "^4.15.2",
     "nodemon": "^1.11.0",
-    "socket.io": "^1.7.3"
-    "box2dweb": "2.1.0-b" 
+    "socket.io": "^1.7.3",
+    "box2dweb": "^2.1.0-b" 
   },
   "keywords": [
     "node",
