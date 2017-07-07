@@ -2,6 +2,7 @@
   "name": "cremmler",
   "version": "0.0.0",
   "description": "Test Websockets",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },  
@@ -15,6 +16,10 @@
     "nodemon": "^1.11.0",
     "socket.io": "^1.7.3",
     "box2dweb": "2.1.0-a" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/foodfight2017.git"
   },
   "keywords": [
     "node",
