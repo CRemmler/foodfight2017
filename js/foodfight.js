@@ -48,7 +48,8 @@ jQuery(document).ready(function() {
   // SocketIO
   //////////////
 
-  var socket = io.connect('localhost:3000');
+
+ var socket = io();
 
   socket.on('Welcome', function(data) {
     socket.emit('All Ready');
